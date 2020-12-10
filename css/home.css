@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    grid-template-rows: 1fr auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #BFD9D7;
+    padding: 1rem;
+    position: sticky;
+    top: 100%;
+}
