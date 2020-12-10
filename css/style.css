@@ -2,20 +2,25 @@
     margin: 0;
     box-sizing: border-box;
     color: #666;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 /* Header/logo tiêu đề */
 
 header {
-    padding: 5px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
+    background: #BFD9D7;
+    height: 150px;
 }
+footer {
+    background:#BFD9D7;
 
-
+}
+p {
+    margin:auto;
+    max-width:1100px;
+}
 /* Tăng kích thước font chữ cho header */
 
 header h1 {
@@ -27,11 +32,6 @@ h2,
 h3 {
     color: white;
 }
-
-section {
-    padding: 20px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,7 +48,7 @@ li {
 li a,
 .dropbtn {
     display: inline-block;
-    color: #666;
+    color: rgb(102, 102, 102);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -57,7 +57,7 @@ li a,
 li a:hover:not(.active),
 .dropdown:hover .dropbtn {
     color: white;
-    background-color: #4CAF50;
+    background-color:#a2b9b7e7;
 }
 
 li.dropdown {
