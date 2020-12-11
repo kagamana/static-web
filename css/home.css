@@ -52,3 +52,6 @@ footer h3 {
 section h2 {
     min-height: 60px;
 }
+section {
+    padding: 0.5px;
+}
